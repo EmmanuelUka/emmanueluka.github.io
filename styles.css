@@ -1,6 +1,98 @@
-body {
-    background-color: rgb(27, 62, 76);
-    color: #f5f5f5; /* light text for contrast */
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+:root{
+  --bg1:#98a7cb;
+  --bg2:#98a7cb;
+  --card:#ffffff;
+  --accent:#2b6ef6;
+  --muted:#667085;
+  --radius:12px;
+  --max-width:900px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0;
+  background: linear-gradient(180deg,var(--bg1),var(--bg2));
+  -webkit-font-smoothing:antialiased;
+  color:#0f1720;
+  padding:40px 16px;
+  display:flex;
+  justify-content:center;
+}
+
+.wrap{
+  width:100%;
+  max-width:var(--max-width);
+}
+
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:18px;
+  box-shadow:0 6px 18px rgba(12,24,40,0.06);
+  margin-bottom:18px;
+}
+
+.header-card{
+  display:flex;
+  gap:18px;
+  align-items:center;
+}
+
+.avatar{
+  width:110px;
+  height:140px;
+  object-fit:cover;
+  border-radius:8px;
+  border:1px solid rgba(12,24,40,0.06);
+  flex-shrink:0;
+}
+
+.name{
+  margin:0;
+  font-size:1.6rem;
+  font-weight:700;
+  letter-spacing:0.2px;
+}
+
+.contact{
+  margin:6px 0;
+  color:var(--muted);
+  font-size:0.95rem;
+}
+
+.links a{
+  color:var(--accent);
+  text-decoration:none;
+  font-weight:600;
+}
+
+h2{
+  margin:0 0 8px 0;
+  font-size:1.05rem;
+  color:#0b2546;
+}
+
+.muted{
+  color:var(--muted);
+  font-size:0.9rem;
+  margin-top:4px;
+  margin-bottom:8px;
+}
+
+.edu, .job, .project{
+  margin-bottom:12px;
+}
+
+ul{margin:6px 0 0 18px;padding:0}
+
+.small{font-size:0.85rem;text-align:center;padding:6px;color:var(--muted)}
+
+/* Responsive */
+@media (max-width:600px){
+  .header-card{flex-direction:row; align-items:center}
+  .avatar{width:86px;height:110px}
+  .name{font-size:1.25rem}
+  body{padding:24px 12px}
 }
