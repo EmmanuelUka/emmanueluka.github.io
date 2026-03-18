@@ -1,0 +1,20 @@
+.design-navbar{
+    background-color: hsl(186, 100%, 50%);
+    min-height: 80px;
+    justify-content: center;
+
+}
+
+.nav-link.active{
+  background-color: #0A1A2F; /* custom highlight */
+  color: #FFFFFF;
+}
+
+.nav-link{
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  background-color: #00E5FF;
+  color: #000;
+}
