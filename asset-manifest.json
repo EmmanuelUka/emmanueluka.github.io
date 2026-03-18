@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab1a0abb.css",
+    "main.js": "/static/js/main.48f80633.js",
+    "static/media/E_Uka_F25.jpg": "/static/media/E_Uka_F25.e71e5c486e9f5fb7abc4.jpg",
+    "static/media/ants.png": "/static/media/ants.4e9c3e9ff36accc2a1e2.png",
+    "static/media/germjourney.png": "/static/media/germjourney.587791361e149067b2d3.png",
+    "static/media/umuahia-fmc.jpeg": "/static/media/umuahia-fmc.ae38ac8ff15900b8e25b.jpeg",
+    "static/media/umuahia-war-museum.jpeg": "/static/media/umuahia-war-museum.21261522eac52e9cfd76.jpeg",
+    "static/media/five-cowries-creek.jpeg": "/static/media/five-cowries-creek.28616486c71f70a7454c.jpeg",
+    "static/media/pylogo.png": "/static/media/pylogo.4bf914cb7d3451960262.png",
+    "static/media/tslogo.png": "/static/media/tslogo.01647903c8f583e9e72d.png",
+    "static/media/reactlogo.webp": "/static/media/reactlogo.1a768a83eaed8db78774.webp",
+    "static/media/cpp-logo.png": "/static/media/cpp-logo.59b2150473dffcd7b7ea.png",
+    "static/media/flasklogo.webp": "/static/media/flasklogo.e6437b5572a6ac7a4143.webp",
+    "index.html": "/index.html",
+    "main.ab1a0abb.css.map": "/static/css/main.ab1a0abb.css.map",
+    "main.48f80633.js.map": "/static/js/main.48f80633.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab1a0abb.css",
+    "static/js/main.48f80633.js"
+  ]
+}
