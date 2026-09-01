@@ -9,19 +9,19 @@ function Blog() {
       image: img1,
       title: "Red Sand",
       location: "Umuahia, Abia State, Nigeria",
-      description: "A stunning evening capture with golden sunlight reflecting on the water."
+      description: ""
     },
     {
       image: img2,
       title: "Federal Medical Center",
       location: "Umuahia, Abia State, Nigeria",
-      description: "Capturing the energy of the city during rush hour."
+      description: ""
     },
     {
       image: img3,
       title: "Five Cowries Creek",
       location: "Lagos Island, Lagos Nigeria",
-      description: "Fall colors are at their peak, perfect for a quiet stroll."
+      description: ""
     },
     // add more posts here
   ];
