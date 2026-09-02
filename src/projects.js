@@ -6,6 +6,7 @@ import flask from './assets/flasklogo.webp'
 import cpp from './assets/cpp-logo.png'
 import js from './assets/js.png'
 import react from './assets/reactlogo.webp'
+import derm from './assets/derm1.jpeg'
 
 
 function Projects(){
@@ -17,9 +18,19 @@ function Projects(){
 {/*https://ants.webtoys.dev/ */}
             <div className="projects-grid">
 
+
+                <div className="project-card">
+                    <a href="https://skin-lesion-segmentatio-model-bu6aycqbpd65wuzuz2gbsu.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={derm} alt="Project 1" className="project-image"/>
+                        <span className="link-indicator">🔗</span> {/* optional visual indicator */}
+                    </a>
+                    <h3 className="project-title">Travel Health Advisory</h3>
+                    <p className="project-description">DSAT is a deep learning model that analyzes dermoscopic skin lesion images and produces a confidence map showing where lesion boundaries are and how certain the model is about them. Unlike standard segmentation models that output a hard yes-or-no boundary, DSAT is trained on annotations from 16 clinical experts and learns to express uncertainty at contested boundaries — the same regions where human dermatologists themselves disagree.</p>
+                </div>
+
                 <div className="project-card">
                     <a href="https://ants.webtoys.dev/://emmanueluka.github.io/Travel-Health-Advisory/" target="_blank" rel="noopener noreferrer">
-                        <img src={ants} alt="Project 1" className="project-image"/>
+                        <img src={ants} alt="Project 2" className="project-image"/>
                         <span className="link-indicator">🔗</span> {/* optional visual indicator */}
                     </a>
                     <h3 className="project-title">ANTS!!!</h3>
@@ -29,22 +40,16 @@ function Projects(){
 
                 <div className="project-card">
                     <a href="https://emmanueluka.github.io/Travel-Health-Advisory/" target="_blank" rel="noopener noreferrer">
-                        <img src={germjourney} alt="Project 2" className="project-image"/>
+                        <img src={germjourney} alt="Project 3" className="project-image"/>
                         <span className="link-indicator">🔗</span> {/* optional visual indicator */}
                     </a>
                     <h3 className="project-title">Travel Health Advisory</h3>
                     <p className="project-description">Built an interactive map-based tourist health dashboard that visualizes each country’s prevalent diseases, air-pollution mortality rates, and sanitation levels, incorporating a risk-calculation system to help travelers make informed decisions.</p>
                 </div>
 
-                <div className="project-card">
-                    <a href="https://skin-lesion-segmentatio-model-bu6aycqbpd65wuzuz2gbsu.streamlit.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={germjourney} alt="Project 2" className="Skin Lesion Segmentation"/>
-                        <span className="link-indicator">🔗</span> {/* optional visual indicator */}
-                    </a>
-                    <h3 className="project-title">Travel Health Advisory</h3>
-                    <p className="project-description">Built an interactive map-based tourist health dashboard that visualizes each country’s prevalent diseases, air-pollution mortality rates, and sanitation levels, incorporating a risk-calculation system to help travelers make informed decisions.</p>
-                </div>
 
+                
+            
             </div>
 
             <div className="tech-logos">
