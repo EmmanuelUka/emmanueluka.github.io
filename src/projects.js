@@ -35,6 +35,16 @@ function Projects(){
                     <h3 className="project-title">Travel Health Advisory</h3>
                     <p className="project-description">Built an interactive map-based tourist health dashboard that visualizes each country’s prevalent diseases, air-pollution mortality rates, and sanitation levels, incorporating a risk-calculation system to help travelers make informed decisions.</p>
                 </div>
+
+                <div className="project-card">
+                    <a href="https://emmanueluka-dsat.streamlit.app" target="_blank" rel="noopener noreferrer">
+                        <img src={germjourney} alt="Project 2" className="project-image"/>
+                        <span className="link-indicator">🔗</span> {/* optional visual indicator */}
+                    </a>
+                    <h3 className="project-title">Travel Health Advisory</h3>
+                    <p className="project-description">Built an interactive map-based tourist health dashboard that visualizes each country’s prevalent diseases, air-pollution mortality rates, and sanitation levels, incorporating a risk-calculation system to help travelers make informed decisions.</p>
+                </div>
+
             </div>
 
             <div className="tech-logos">
