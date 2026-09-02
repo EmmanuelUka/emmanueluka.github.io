@@ -37,8 +37,8 @@ function Projects(){
                 </div>
 
                 <div className="project-card">
-                    <a href="https://emmanueluka-dsat.streamlit.app" target="_blank" rel="noopener noreferrer">
-                        <img src={germjourney} alt="Project 2" className="project-image"/>
+                    <a href="https://skin-lesion-segmentatio-model-bu6aycqbpd65wuzuz2gbsu.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={germjourney} alt="Project 2" className="Skin Lesion Segmentation"/>
                         <span className="link-indicator">🔗</span> {/* optional visual indicator */}
                     </a>
                     <h3 className="project-title">Travel Health Advisory</h3>
