@@ -24,7 +24,7 @@ function Projects(){
                         <img src={derm} alt="Project 1" className="project-image"/>
                         <span className="link-indicator">🔗</span> {/* optional visual indicator */}
                     </a>
-                    <h3 className="project-title">Travel Health Advisory</h3>
+                    <h3 className="project-title">Skin Segmentation Research</h3>
                     <p className="project-description">DSAT is a deep learning model that analyzes dermoscopic skin lesion images and produces a confidence map showing where lesion boundaries are and how certain the model is about them. Unlike standard segmentation models that output a hard yes-or-no boundary, DSAT is trained on annotations from 16 clinical experts and learns to express uncertainty at contested boundaries — the same regions where human dermatologists themselves disagree.</p>
                 </div>
 
